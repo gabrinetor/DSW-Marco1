@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+  }
+
+/*Criando classe 'box'*/
+.box{
+    width: auto;    /*Largura auto preenchida*/
+    background: rgba(0, 0, 0, 0.4);  /*Sistema de cores Red-Green-Blue-Alpha*/
+    padding: 40px;  /*Preenchimento*/
+    text-align: center;  /*Texto centralizado*/
+    margin: auto;   /*Margem se auto preenche em qualquer superficie de browser*/
+    color: white;   /*Texto branco*/
+    font-family: 'Century Gothic', sans-serif;  /*Familia de fontes para letra*/
+}
+
+/*Letra maior*/
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;   /*Escala 100 em qualquer dimensionamento*/
+}
+
+/*Letra menor*/
+.box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+/*Paragrafo em qualquer dimensão justificado*/
+.box p{
+    text-align: justify;
+}
+
+/*Carousel*/
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}

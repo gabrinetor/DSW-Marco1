@@ -1,0 +1,17 @@
+#scroll {
+            height: 200px;
+            overflow-y: scroll;
+            max-width: auto;
+            text-align: center;
+        }
+        
+        #textcenter {
+            text-align: center;
+        }
+        
+        #materia1,
+        #materia2,
+        #materia3,
+        #materia4 {
+            display: none;
+        }
